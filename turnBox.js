@@ -1,3 +1,4 @@
+// Write your package code here!
 (function($){
   $.fn.turnBox = function(options)
   {
@@ -7,7 +8,7 @@
       axis: "X",
       perspective: 800,
       duration: 200,
-      delay: 0,
+      delay: 1,
       easing: "linear",
       direction: "positive",
       type: "real",
