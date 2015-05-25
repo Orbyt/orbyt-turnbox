@@ -10,6 +10,6 @@ Example use:
 </div>
 ```
 
-Initiate with $(".sample").turnBox();
+Initiate with `$(".sample").turnBox();`
 
 Full insctructions for use can be found at the main site.
