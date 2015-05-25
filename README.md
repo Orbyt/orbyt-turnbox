@@ -1,4 +1,4 @@
-This is Turnbox (http://noht.co.jp/turnbox )repackaged for Meteor. To add this to your project, simply type meteor add orbyt:turnbox in your console and hit enter. 
+This is Turnbox (http://noht.co.jp/turnbox ) repackaged for Meteor. To add this to your project, simply type meteor add orbyt:turnbox in your console and hit enter. 
 
 Example use:
 
