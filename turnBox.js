@@ -4,14 +4,15 @@
   {
     var defaults = {
       width: 200,
-      height: 50,
-      axis: "X",
+      height: 600,
+      axis: "Y",
       perspective: 800,
       duration: 200,
       delay: 1,
       easing: "linear",
-      direction: "positive",
+      direction: "negative",
       type: "real",
+      percentage: false
     };
 
     var setting = $.extend(defaults, options);
@@ -434,8 +435,8 @@
       get_perspective_code() + 
       " display: block;\n" +
       " position: relative;\n" +
-      " width: " + width + "px;\n" +
-      " height: " + height + "px;\n" +
+      " width: " + width + (defaults.percentage ? "%;\n" : "px;\n") +
+      " height: " + height + (defaults.percentage ? "%;\n" : "px;\n") +
       " left: 0;\n" +
       "}\n" +
       adjust_transform_origin;
