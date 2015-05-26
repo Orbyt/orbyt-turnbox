@@ -1,5 +1,7 @@
 This is Turnbox (http://noht.co.jp/turnbox ) repackaged for [Meteor](http://meteor.com). To add this to your project, simply type `meteor add orbyt:turnbox` in your console and hit enter. 
 
+Link to package on atmosphere: https://atmospherejs.com/orbyt/turnbox
+
 Example use:
 ```
 <div class="sample">
